@@ -20,7 +20,7 @@ public class Main {
             } else if (guessedNumber < randomNumber) {
                 System.out.println("Incorrect! The number you have guessed is smaller than the random number!");
             } else {
-                System.out.println("Invalid!");
+                System.out.println("Invalid! Please provide a number.");
             }
         } while (guessedNumber != randomNumber);
 
